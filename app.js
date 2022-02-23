@@ -2,7 +2,7 @@ const express =require('express');
 const app=express();
 
 app.get('/',(req,res)=>{
-    res.send("you are in");
+    res.send("Samarth welcomes you to the exciting website");
 });
 
 const port = process.env.port || 3000;
